@@ -1,0 +1,127 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Classifier	/home/htuananh/Document_Clasification/MultiLabel/train_multilabel.py	/^class Classifier(object):$/;"	c
+Classifier	/home/htuananh/Document_Clasification/train.py	/^class Classifier(object):$/;"	c
+DatasetProcessor	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^class DatasetProcessor(object):$/;"	c
+DatasetProcessor	/home/htuananh/Document_Clasification/preprocessing.py	/^class DatasetProcessor(object):$/;"	c
+HierClassifier	/home/htuananh/Document_Clasification/MultiLabel/train_multilabel.py	/^class HierClassifier():$/;"	c
+HierClassifier	/home/htuananh/Document_Clasification/train.py	/^class HierClassifier():$/;"	c
+TextProcessor	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^class TextProcessor(object):$/;"	c
+TextProcessor	/home/htuananh/Document_Clasification/preprocessing.py	/^class TextProcessor(object):$/;"	c
+__getitem__	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def __getitem__(self, index):$/;"	m	class:DatasetProcessor	file:
+__getitem__	/home/htuananh/Document_Clasification/preprocessing.py	/^    def __getitem__(self, index):$/;"	m	class:DatasetProcessor	file:
+__init__	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def __init__(self, data_df, processor: TextProcessor=None, labelencoder=None):$/;"	m	class:DatasetProcessor
+__init__	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def __init__(self, stopword=None, stemmer=None, lemmatizer=None):$/;"	m	class:TextProcessor
+__init__	/home/htuananh/Document_Clasification/MultiLabel/train_multilabel.py	/^    def __init__(self, args, data_df, modelALL=None, modelFood=None, modleBoat=None, modelMoney=None):$/;"	m	class:HierClassifier
+__init__	/home/htuananh/Document_Clasification/MultiLabel/train_multilabel.py	/^    def __init__(self, args, train_df, processor: TextProcessor = None, model = 'all', classifier=None, labelencoder=None):$/;"	m	class:Classifier
+__init__	/home/htuananh/Document_Clasification/preprocessing.py	/^    def __init__(self, data_df, processor: TextProcessor=None, labelencoder=None):$/;"	m	class:DatasetProcessor
+__init__	/home/htuananh/Document_Clasification/preprocessing.py	/^    def __init__(self, stopword=None, stemmer=None, lemmatizer=None):$/;"	m	class:TextProcessor
+__init__	/home/htuananh/Document_Clasification/train.py	/^    def __init__(self, args, data_df, modelALL=None, modelFood=None, modleBoat=None, modelMoney=None):$/;"	m	class:HierClassifier
+__init__	/home/htuananh/Document_Clasification/train.py	/^    def __init__(self, args, train_df, processor: TextProcessor=None, classifier=None, labelencoder=None):$/;"	m	class:Classifier
+built_vocab	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^def built_vocab(data_df, cutoff=25, outfile='vocab\/vocab.csv'):$/;"	f
+built_vocab	/home/htuananh/Document_Clasification/preprocessing.py	/^def built_vocab(data_df, cutoff=25, outfile='vocab\/vocab.csv'):$/;"	f
+english_stopword	/home/htuananh/Document_Clasification/MultiLabel/utils.py	/^english_stopword = list(stopwords.words('english'))$/;"	v
+english_stopword	/home/htuananh/Document_Clasification/utils.py	/^english_stopword = list(stopwords.words('english'))$/;"	v
+evaluate	/home/htuananh/Document_Clasification/MultiLabel/train_multilabel.py	/^    def evaluate(self, test_df_or_testfile, show_cm_matrix=False):$/;"	m	class:Classifier
+evaluate	/home/htuananh/Document_Clasification/MultiLabel/train_multilabel.py	/^    def evaluate(self, test_df_or_testfile, show_cm_matrix=False):$/;"	m	class:HierClassifier
+evaluate	/home/htuananh/Document_Clasification/train.py	/^    def evaluate(self, test_df_or_testfile, show_cm_matrix=False):$/;"	m	class:Classifier
+evaluate	/home/htuananh/Document_Clasification/train.py	/^    def evaluate(self, test_df_or_testfile, show_cm_matrix=False):$/;"	m	class:HierClassifier
+folder_to_csv	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^def folder_to_csv(pathdir=None, pathcsv="data\/full_data\/train.csv"):$/;"	f
+folder_to_csv	/home/htuananh/Document_Clasification/preprocessing.py	/^def folder_to_csv(pathdir=None, pathcsv="data\/full_data\/train.csv"):$/;"	f
+from_csv	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def from_csv(cls, file_path: str, processor:TextProcessor, delimiter:str=None, header:str='infer'):$/;"	m	class:DatasetProcessor
+from_csv	/home/htuananh/Document_Clasification/MultiLabel/train_multilabel.py	/^    def from_csv(cls, args, csv_path, modelALL=None, modelFood=None, modleBoat=None, modelMoney=None):$/;"	m	class:HierClassifier
+from_csv	/home/htuananh/Document_Clasification/MultiLabel/train_multilabel.py	/^    def from_csv(cls, args, csv_path, processor: TextProcessor = None, classifier=None):$/;"	m	class:Classifier
+from_csv	/home/htuananh/Document_Clasification/preprocessing.py	/^    def from_csv(cls, file_path: str, processor:TextProcessor, delimiter:str=None, header:str='infer'):$/;"	m	class:DatasetProcessor
+from_csv	/home/htuananh/Document_Clasification/train.py	/^    def from_csv(cls, args, csv_path, processor: TextProcessor=None, classifier=None):$/;"	m	class:Classifier
+from_csv	/home/htuananh/Document_Clasification/train.py	/^    def from_csv(cls,args, csv_path, modelALL=None, modelFood=None, modleBoat=None, modelMoney=None):$/;"	m	class:HierClassifier
+from_folder	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def from_folder(cls, path: str, processor: TextProcessor):$/;"	m	class:DatasetProcessor
+from_folder	/home/htuananh/Document_Clasification/preprocessing.py	/^    def from_folder(cls, path: str, processor: TextProcessor):$/;"	m	class:DatasetProcessor
+get_df	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def get_df(self):$/;"	m	class:DatasetProcessor
+get_df	/home/htuananh/Document_Clasification/preprocessing.py	/^    def get_df(self):$/;"	m	class:DatasetProcessor
+get_label	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def get_label(self):$/;"	m	class:DatasetProcessor
+get_label	/home/htuananh/Document_Clasification/preprocessing.py	/^    def get_label(self):$/;"	m	class:DatasetProcessor
+get_text	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def get_text(self, option='train'):$/;"	m	class:DatasetProcessor
+get_text	/home/htuananh/Document_Clasification/preprocessing.py	/^    def get_text(self, option='train'):$/;"	m	class:DatasetProcessor
+get_top_n_bigram	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def get_top_n_bigram(self, n=20):$/;"	m	class:DatasetProcessor
+get_top_n_bigram	/home/htuananh/Document_Clasification/preprocessing.py	/^    def get_top_n_bigram(self, n=20):$/;"	m	class:DatasetProcessor
+get_top_n_trigram	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def get_top_n_trigram(self, n=20):$/;"	m	class:DatasetProcessor
+get_top_n_trigram	/home/htuananh/Document_Clasification/preprocessing.py	/^    def get_top_n_trigram(self, n=20):$/;"	m	class:DatasetProcessor
+get_top_n_unigram	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def get_top_n_unigram(self, n=20):$/;"	m	class:DatasetProcessor
+get_top_n_unigram	/home/htuananh/Document_Clasification/preprocessing.py	/^    def get_top_n_unigram(self, n=20):$/;"	m	class:DatasetProcessor
+lematize	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def lematize(self):$/;"	m	class:DatasetProcessor
+lematize	/home/htuananh/Document_Clasification/preprocessing.py	/^    def lematize(self):$/;"	m	class:DatasetProcessor
+lemmatize	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def lemmatize(self, text):$/;"	m	class:TextProcessor
+lemmatize	/home/htuananh/Document_Clasification/preprocessing.py	/^    def lemmatize(self, text):$/;"	m	class:TextProcessor
+load_data	/home/htuananh/Document_Clasification/MultiLabel/train_multilabel.py	/^    def load_data(self, all_path=None, food_path=None, boat_path=None, money_path=None):$/;"	m	class:HierClassifier
+load_data	/home/htuananh/Document_Clasification/train.py	/^    def load_data(self, all_path=None, food_path=None, boat_path=None, money_path=None):$/;"	m	class:HierClassifier
+load_stopword	/home/htuananh/Document_Clasification/MultiLabel/train_multilabel.py	/^    def load_stopword(self, stopword_file):$/;"	m	class:Classifier
+load_stopword	/home/htuananh/Document_Clasification/train.py	/^    def load_stopword(self, stopword_file):$/;"	m	class:Classifier
+load_vocab	/home/htuananh/Document_Clasification/MultiLabel/train_multilabel.py	/^    def load_vocab(self, vocab_file):$/;"	m	class:Classifier
+load_vocab	/home/htuananh/Document_Clasification/train.py	/^    def load_vocab(self, vocab_file):$/;"	m	class:Classifier
+lower	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def lower(self):$/;"	m	class:DatasetProcessor
+lower	/home/htuananh/Document_Clasification/preprocessing.py	/^    def lower(self):$/;"	m	class:DatasetProcessor
+main	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^def main():$/;"	f
+main	/home/htuananh/Document_Clasification/MultiLabel/train_multilabel.py	/^def main():$/;"	f
+main	/home/htuananh/Document_Clasification/preprocessing.py	/^def main():$/;"	f
+main	/home/htuananh/Document_Clasification/train.py	/^def main():$/;"	f
+make_hier_data	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^def make_hier_data(data_df_or_data_path, type='train'):$/;"	f
+make_hier_data	/home/htuananh/Document_Clasification/preprocessing.py	/^def make_hier_data(data_df_or_data_path, type='train'):$/;"	f
+nomalize_all	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def nomalize_all(self, text):$/;"	m	class:TextProcessor
+nomalize_all	/home/htuananh/Document_Clasification/preprocessing.py	/^    def nomalize_all(self, text):$/;"	m	class:TextProcessor
+nomalize_all_df	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def nomalize_all_df(self):$/;"	m	class:DatasetProcessor
+nomalize_all_df	/home/htuananh/Document_Clasification/preprocessing.py	/^    def nomalize_all_df(self):$/;"	m	class:DatasetProcessor
+plot_confusion_matrix	/home/htuananh/Document_Clasification/MultiLabel/utils.py	/^def plot_confusion_matrix(cm,$/;"	f
+plot_confusion_matrix	/home/htuananh/Document_Clasification/utils.py	/^def plot_confusion_matrix(cm,$/;"	f
+plot_distribution_of_label	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def plot_distribution_of_label(self):$/;"	m	class:DatasetProcessor
+plot_distribution_of_label	/home/htuananh/Document_Clasification/preprocessing.py	/^    def plot_distribution_of_label(self):$/;"	m	class:DatasetProcessor
+plot_distribution_of_top_gram	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def plot_distribution_of_top_gram(self, n=20, gram='unigram'):$/;"	m	class:DatasetProcessor
+plot_distribution_of_top_gram	/home/htuananh/Document_Clasification/preprocessing.py	/^    def plot_distribution_of_top_gram(self, n=20, gram='unigram'):$/;"	m	class:DatasetProcessor
+predict	/home/htuananh/Document_Clasification/MultiLabel/train_multilabel.py	/^    def predict(self, text):$/;"	m	class:Classifier
+predict	/home/htuananh/Document_Clasification/train.py	/^    def predict(self, text):$/;"	m	class:Classifier
+predict_all	/home/htuananh/Document_Clasification/MultiLabel/train_multilabel.py	/^    def predict_all(self, raw_documents):$/;"	m	class:Classifier
+predict_all	/home/htuananh/Document_Clasification/train.py	/^    def predict_all(self, raw_documents):$/;"	m	class:Classifier
+predict_label	/home/htuananh/Document_Clasification/MultiLabel/train_multilabel.py	/^    def predict_label(self, raw_documents):$/;"	m	class:Classifier
+predict_label	/home/htuananh/Document_Clasification/train.py	/^    def predict_label(self, raw_documents):$/;"	m	class:Classifier
+remove_dupspace	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def remove_dupspace(self):$/;"	m	class:DatasetProcessor
+remove_dupspace	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def remove_dupspace(self, text):$/;"	m	class:TextProcessor
+remove_dupspace	/home/htuananh/Document_Clasification/preprocessing.py	/^    def remove_dupspace(self):$/;"	m	class:DatasetProcessor
+remove_dupspace	/home/htuananh/Document_Clasification/preprocessing.py	/^    def remove_dupspace(self, text):$/;"	m	class:TextProcessor
+remove_emoji	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def remove_emoji(self, text):$/;"	m	class:TextProcessor
+remove_emoji	/home/htuananh/Document_Clasification/preprocessing.py	/^    def remove_emoji(self, text):$/;"	m	class:TextProcessor
+remove_irr_char	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def remove_irr_char(self):$/;"	m	class:DatasetProcessor
+remove_irr_char	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def remove_irr_char(self, text):$/;"	m	class:TextProcessor
+remove_irr_char	/home/htuananh/Document_Clasification/preprocessing.py	/^    def remove_irr_char(self):$/;"	m	class:DatasetProcessor
+remove_irr_char	/home/htuananh/Document_Clasification/preprocessing.py	/^    def remove_irr_char(self, text):$/;"	m	class:TextProcessor
+remove_stop_word	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def remove_stop_word(self):$/;"	m	class:DatasetProcessor
+remove_stop_word	/home/htuananh/Document_Clasification/preprocessing.py	/^    def remove_stop_word(self):$/;"	m	class:DatasetProcessor
+remove_stopword	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def remove_stopword(self, text):$/;"	m	class:TextProcessor
+remove_stopword	/home/htuananh/Document_Clasification/preprocessing.py	/^    def remove_stopword(self, text):$/;"	m	class:TextProcessor
+remove_url	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def remove_url(self):$/;"	m	class:DatasetProcessor
+remove_url	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def remove_url(self, text):$/;"	m	class:TextProcessor
+remove_url	/home/htuananh/Document_Clasification/preprocessing.py	/^    def remove_url(self):$/;"	m	class:DatasetProcessor
+remove_url	/home/htuananh/Document_Clasification/preprocessing.py	/^    def remove_url(self, text):$/;"	m	class:TextProcessor
+score	/home/htuananh/Document_Clasification/MultiLabel/utils.py	/^def score(y_true, y_pred):$/;"	f
+score	/home/htuananh/Document_Clasification/utils.py	/^def score(y_true, y_pred):$/;"	f
+sorce	/home/htuananh/Document_Clasification/MultiLabel/train_multilabel.py	/^    def sorce(self, raw_documents, y_targets):$/;"	m	class:Classifier
+sorce	/home/htuananh/Document_Clasification/train.py	/^    def sorce(self, raw_documents, y_targets):$/;"	m	class:Classifier
+split_by_label	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def split_by_label(self, train_split=0.8):$/;"	m	class:DatasetProcessor
+split_by_label	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^def split_by_label(data_df, train_split=0.8):$/;"	f
+split_by_label	/home/htuananh/Document_Clasification/preprocessing.py	/^    def split_by_label(self, train_split=0.8):$/;"	m	class:DatasetProcessor
+split_by_label	/home/htuananh/Document_Clasification/preprocessing.py	/^def split_by_label(data_df, train_split=0.8):$/;"	f
+split_data	/home/htuananh/Document_Clasification/MultiLabel/train_multilabel.py	/^    def split_data(self, data_df):$/;"	m	class:HierClassifier
+stem	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def stem(self):$/;"	m	class:DatasetProcessor
+stem	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def stem(self, text):$/;"	m	class:TextProcessor
+stem	/home/htuananh/Document_Clasification/preprocessing.py	/^    def stem(self):$/;"	m	class:DatasetProcessor
+stem	/home/htuananh/Document_Clasification/preprocessing.py	/^    def stem(self, text):$/;"	m	class:TextProcessor
+to_csv	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def to_csv(self, out_path: str):$/;"	m	class:DatasetProcessor
+to_csv	/home/htuananh/Document_Clasification/preprocessing.py	/^    def to_csv(self, out_path: str):$/;"	m	class:DatasetProcessor
+train	/home/htuananh/Document_Clasification/MultiLabel/train_multilabel.py	/^    def train(self):$/;"	m	class:Classifier
+train	/home/htuananh/Document_Clasification/MultiLabel/train_multilabel.py	/^    def train(self):$/;"	m	class:HierClassifier
+train	/home/htuananh/Document_Clasification/train.py	/^    def train(self):$/;"	m	class:Classifier
+train	/home/htuananh/Document_Clasification/train.py	/^    def train(self):$/;"	m	class:HierClassifier
+transform	/home/htuananh/Document_Clasification/MultiLabel/preprocessing.py	/^    def transform(self, text):$/;"	m	class:TextProcessor
+transform	/home/htuananh/Document_Clasification/preprocessing.py	/^    def transform(self, text):$/;"	m	class:TextProcessor
